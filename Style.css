@@ -3,14 +3,71 @@ body{
 }
 
 
-
+/* question 1 */
 .question1{
     justify-content: center;
-    border-radius: 30px;
+    border-radius: 1000px;
     background-color: aqua;
     flex: auto;
 }
 
+.question1 h1 {
+    position:relative; left:500px; top:2px;
+}
+
 .question1 p{
     border-radius:  20px;
+    position:relative; left:500px; top:-10px;
+}
+
+/* question 2 */
+
+.question2{
+    justify-content: center;
+    border-radius: 1000px;
+    background-color: aqua;
+    flex: auto;
+}
+
+.question2 h1 {
+    position:relative; left:500px; top:2px;
+}
+
+.question2 p{
+    border-radius:  20px;
+    position:relative; left:500px; top:-10px;
+}
+
+/* question 3 */
+.question3{
+    justify-content: center;
+    border-radius: 1000px;
+    background-color: aqua;
+    flex: auto;
+}
+
+.question3  h1 {
+    position:relative; left:500px; top:2px;
+}
+
+.question3 p{
+    border-radius:  20px;
+    position:relative; left:500px; top:-10px;
+}
+
+/* question 4 */
+.question4{
+    justify-content: center;
+    border-radius: 1000px;
+    background-color: aqua;
+    flex: auto;
+}
+
+.question4  h1 {
+    position:relative; left:500px; top:2px;
+}
+
+.question4 p{
+    border-radius:  20px;
+    position:relative; left:500px; top:-10px;
 }
