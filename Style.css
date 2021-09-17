@@ -8,17 +8,45 @@ body{
     justify-content: center;
     border-radius: 1000px;
     background-color: aqua;
-    flex: auto;
+   
+    flex-wrap: wrap;
+    
+    
+    
+    
+  
 }
 
 .question1 h1 {
+    
     position:relative; left:500px; top:2px;
+    flex:auto
 }
 
 .question1 p{
+    
     border-radius:  20px;
     position:relative; left:500px; top:-10px;
+    flex:auto
 }
+/* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  } */
 
 /* question 2 */
 
@@ -31,11 +59,13 @@ body{
 
 .question2 h1 {
     position:relative; left:500px; top:2px;
+    flex:auto
 }
 
 .question2 p{
     border-radius:  20px;
     position:relative; left:500px; top:-10px;
+    flex:auto
 }
 
 /* question 3 */
@@ -48,11 +78,13 @@ body{
 
 .question3  h1 {
     position:relative; left:500px; top:2px;
+    flex:auto
 }
 
 .question3 p{
     border-radius:  20px;
     position:relative; left:500px; top:-10px;
+    flex:auto
 }
 
 /* question 4 */
@@ -65,9 +97,30 @@ body{
 
 .question4  h1 {
     position:relative; left:500px; top:2px;
+    flex:auto
 }
 
 .question4 p{
     border-radius:  20px;
     position:relative; left:500px; top:-10px;
+    flex:auto
+}
+
+/* // question 5 */
+.question5{
+    justify-content: center;
+    border-radius: 1000px;
+    background-color: aqua;
+    flex: auto;
+}
+
+.question5  h1 {
+    position:relative; left:500px; top:2px;
+    flex:auto
+}
+
+.question5 p{
+    border-radius:  20px;
+    position:relative; left:500px; top:-10px;
+    flex:auto
 }

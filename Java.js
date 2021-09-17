@@ -1,0 +1,5 @@
+var question1 = document.querySelectorAll("question1")
+var question2 = document.querySelectorAll("question2")
+var question3 = document.querySelectorAll("question3")
+var question4 = document.querySelectorAll("question4")
+var question5 = document.querySelectorAll("question5") 
