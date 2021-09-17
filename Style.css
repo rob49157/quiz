@@ -4,30 +4,26 @@ body{
 
 
 /* question 1 */
-.question1{
+.question1 {
     justify-content: center;
     border-radius: 1000px;
     background-color: aqua;
    
     flex-wrap: wrap;
     
-    
-    
-    
-  
 }
 
-.question1 h1 {
+.question1 h1  {
+    text-align: center;
     
-    position:relative; left:500px; top:2px;
-    flex:auto
+    flex-shrink: 2px;
 }
 
 .question1 p{
-    
+    text-align: center;
     border-radius:  20px;
-    position:relative; left:500px; top:-10px;
-    flex:auto
+    
+    flex-shrink: 2px;
 }
 /* .flex-container {
     display: flex;
