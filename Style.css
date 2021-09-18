@@ -25,24 +25,7 @@ body{
     
     flex-shrink: 2px;
 }
-/* .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 10px;
-    flex: 50%;
-  } */
+
 
 /* question 2 */
 
@@ -50,18 +33,19 @@ body{
     justify-content: center;
     border-radius: 1000px;
     background-color: aqua;
-    flex: auto;
+    flex: wrap;
 }
 
 .question2 h1 {
-    position:relative; left:500px; top:2px;
-    flex:auto
-}
+    text-align: center;
+    
+    flex-shrink: 2px;}
 
 .question2 p{
+    text-align: center;
     border-radius:  20px;
-    position:relative; left:500px; top:-10px;
-    flex:auto
+    
+    flex-shrink: 2px;
 }
 
 /* question 3 */
@@ -69,18 +53,20 @@ body{
     justify-content: center;
     border-radius: 1000px;
     background-color: aqua;
-    flex: auto;
+    flex: wrap;
 }
 
 .question3  h1 {
-    position:relative; left:500px; top:2px;
-    flex:auto
+    text-align: center;
+    
+    flex-shrink: 2px;
 }
 
 .question3 p{
+    text-align: center;
     border-radius:  20px;
-    position:relative; left:500px; top:-10px;
-    flex:auto
+    
+    flex-shrink: 2px;
 }
 
 /* question 4 */
@@ -88,18 +74,20 @@ body{
     justify-content: center;
     border-radius: 1000px;
     background-color: aqua;
-    flex: auto;
+    flex: wrap;
 }
 
 .question4  h1 {
-    position:relative; left:500px; top:2px;
-    flex:auto
+    text-align: center;
+    
+    flex-shrink: 2px;
 }
 
 .question4 p{
+    text-align: center;
     border-radius:  20px;
-    position:relative; left:500px; top:-10px;
-    flex:auto
+    
+    flex-shrink: 2px
 }
 
 /* // question 5 */
@@ -107,16 +95,18 @@ body{
     justify-content: center;
     border-radius: 1000px;
     background-color: aqua;
-    flex: auto;
+    flex: wrap;
 }
 
 .question5  h1 {
-    position:relative; left:500px; top:2px;
-    flex:auto
+    text-align: center;
+    
+    flex-shrink: 2px;
 }
 
 .question5 p{
+    text-align: center;
     border-radius:  20px;
-    position:relative; left:500px; top:-10px;
-    flex:auto
+    
+    flex-shrink: 2px
 }
