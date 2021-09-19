@@ -1,5 +1,13 @@
 body{
     background-color: blue;
+} 
+
+/* timer */
+#start{
+    justify-content: right ;
+    text-align: right;
+    border-radius:1000px ;
+
 }
 
 
