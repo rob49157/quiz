@@ -16,6 +16,7 @@ var finalgrade = "final grade: " + gradeVar
 
 // start timer and create timer
 start_btn.addEventListener("click", timer)
+console.log(timer)
 
 function timer() {
     var timeremaining = " "
@@ -28,7 +29,7 @@ function timer() {
         }
         time += timeremaining
     }, 1000);
-    //prompt that displays games over
+   
 }
 // question1
 function firstquestion(clicked) {
@@ -143,5 +144,5 @@ function calculateGrade() {
 }
 
 function getscore(fname,lname){
-    var getter= fname+ " " +lname
-    localStorage.setItem(getter,sum)
+    var getter= fname.value + " " + lname.value
+    localStorage.setItem(getter,sum)}
