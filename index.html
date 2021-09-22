@@ -6,8 +6,7 @@
     <meta charset="UTF-8" />
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <title>quiz</title>
+   
 </head>
 <!-- timer -->
 <header id= "start"> 
@@ -18,55 +17,56 @@
     <!-- //question 1 -->
     <div class= "question1"> 
         <h1> Whats the purpose of function()?</h1>
-        <p><button id= "q_btn1"> store data </button>  </p>  
-        <p><button id= "q_btn2"> store variables</button> </p>
-        <p><button id= "q_btn3"> store loops</button>  </p>
-        <p><button id= "q_btn4"  value='all of above'> all of above </button>  </p>
         
+        <p><input type="button" onclick="firstquestion(this.id)" id= "store data" value="store data"></p>
+        <p><input type="button" onclick="firstquestion(this.id)" id= "store variables" value="store variables"></p>
+        <p><input type="button" onclick="firstquestion(this.id)" id= "store loops" value="store loops"></p>
+        <p><input type="button" onclick="firstquestion(this.id)" id= "all above" value="all above"></p>
+        
+         -->
     </div> 
     <!-- //question 2 -->
-    <div class ="question2">
-        <h1> How to log ?</h1>
-        <p><button id= "q_btn2"> console.log</button></p>
-        <p><button>print</button></p>
-        <p><button>set ()</button></p>
-        <p><button>getitem()</button></p>
-         
+    <div class ="question2" style="display:none">
+        <h1> How to log a console?</h1>
+        <p><input type="button" onclick="secondQuestion(this.id)" id= "console.log" value= "console.log"></p>
+        <p><input type="button" onclick="secondQuestion(this.id)" id= "print" value= "print"></p>
+        <p><input type="button" onclick="secondQuestion(this.id)" id= "set ()" value= "set ()"></p>
+        <p><input type="button" onclick="secondQuestion(this.id)" id= "getitem()" value= "getitem()"></p>
+       
     </div>
     <!-- //question 3 -->
-    <div class ="question3">
-        <h1> How to write an interger?</h1>
-        <p><button id="q_btn3"> console.log</button></p>
-        <p><button> interger</button></p>
-        <p><button>getelementbyID</button></p>
-        <p><button>var</button></p>
+    <div class ="question3" style =" display: none">
+        <h1> How to define an integer?</h1>
+        <p><input type="button" onclick="thirdQuestion(this.id)" id= "console.log" value= "console.log"></p>
+        <p><input type="button" onclick="thirdQuestion(this.id)" id= "interger" value= "interger"></p>
+        <p><input type="button" onclick="thirdQuestion(this.id)" id= "getelementbyID" value= "getelementbyID"></p>
+        <p><input type="button" onclick="thirdQuestion(this.id)" id= "var" value= "var"></p>
+        
          
     </div>
     <!-- // question 4 -->
-    <div class= "question4">
+    <div class= "question4" style="display: none;" >
         <h1> How does a for loop begins?</h1>
-        <p><button id= "q_btn4"> for</button></p>
-        <p><button> if</button></p>
-        <p><button>else</button></p>
-        <p><button>elif</button>
-        </p>
+        <p><input type="button" onclick="fourthQuestion(this.id)" id= "for" value= "for"></p>
+        <p><input type="button" onclick="fourthQuestion(this.id)" id= "if" value= "if"></p>
+        <p><input type="button" onclick="fourthQuestion(this.id)" id= "else" value= "else"></p>
+        <p><input type="button" onclick="fourthQuestion(this.id)" id= "elif" value= "elif"></p>
 
-    </div>
+        </div>
 
-    <div class= "question5">
-        <h1> What happens when an if statement skips the first stament?</h1>
-        <p><button id="q_btn5"> goes to the next else statement</button></p>
-        <p><button> does nothing</button></p>
-        <p><button> calls a variable</button></p>
-        <p><button> gives and error message </button></p>
-    </div>
+        <form action="/index2.html">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            
+            <input type="submit" onclick="getscore(fname,lname)">
+          </form> 
+
+    <h2 id= "final_score"> final score :</h2>
     
 
     
 
 
-<script src="/script.js"></script>
-
-
-</body>
-
+    <script src="/script.js"></script>
